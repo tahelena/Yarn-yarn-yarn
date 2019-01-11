@@ -1,0 +1,117 @@
+
+.backgroundImg {
+    background-image: url("https://www.thesprucecrafts.com/thmb/C0tpHZDxpvj0KyYCvhJ2QeItsdE=/2121x1414/filters:fill(auto,1)/colorfulyarn-5941a9623df78c537bca3f0d.jpg");
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: auto;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding-top: 30vh;
+}
+.columns{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    margin: 12px;
+
+
+
+}
+@media screen and (max-width:889px){
+    .columns{
+         grid-template-columns:1fr 1fr;
+
+    }
+    .backgroundImg{
+        height: 50vh;
+        position: center;
+
+    }
+}
+@media screen and (max-width:599px){
+    .columns{
+         grid-template-columns: 1fr;
+    }
+    .backgroundImg{
+
+        /* background-size: 200%;
+        height: 35vh; */
+
+    }
+ 
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    text-align: center;
+}
+body {
+    font-family: 'Indie Flower';
+    background-color: grey;
+    margin: 0 auto;
+    text-align: justify;
+  }
+div + p{
+    text-align: center;
+}
+h1 + h2{
+     text-align: center;
+     
+
+}
+h2 + div{
+    position: center;
+}
+table{
+    width: 100%;
+}
+iframe{
+ width: 80%; 
+ height: 70vh;
+ display: block;
+ margin: 0 auto;   
+}
+#top {
+    background-color: black;
+     color: purple;
+     margin: 0 auto;
+     -webkit-text-size-adjust: auto;
+     text-align: left;
+     
+}
+.columnsTop{
+    display: grid;
+    grid-template-columns:14fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    padding: 0 auto;
+    border: 0 auto;
+
+  
+}
+footer{
+    text-align: center;
+}
+#foot{
+    background-color: black;
+    color: white;
+    }
+
+h1{
+    text-align: center;
+    font-display: bold;
+    text-decoration: underline;
+
+}
+h2{
+    margin: 15px;
+}
+img{
+    width: 100%;
+    position: inherit;
+}
