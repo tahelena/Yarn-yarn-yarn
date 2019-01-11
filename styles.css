@@ -16,7 +16,7 @@
 .columns{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5%;
+    grid-gap: 1em;
     margin: 12px;
 
 
@@ -62,8 +62,6 @@ div + p{
 }
 h1 + h2{
      text-align: center;
-     
-
 }
 h2 + div{
     position: center;
