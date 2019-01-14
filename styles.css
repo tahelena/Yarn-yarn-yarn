@@ -1,55 +1,15 @@
-
-.backgroundImg {
-    background-image: url("https://www.thesprucecrafts.com/thmb/C0tpHZDxpvj0KyYCvhJ2QeItsdE=/2121x1414/filters:fill(auto,1)/colorfulyarn-5941a9623df78c537bca3f0d.jpg");
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    background-attachment: fixed;
-    background-position: center ;
-    background-size: auto;
-    margin: 0 auto;
-    background-repeat: no-repeat;
-
+h1{
     text-align: center;
-    padding-top: 30vh;
-}
-.columns{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
-    margin: 12px;
-
-
-
-}
-@media screen and (max-width:889px){
-    .columns{
-         grid-template-columns:1fr 1fr;
-
-    }
-    .backgroundImg{
-        height: 50vh;
-        position: center;
-
-    }
-}
-@media screen and (max-width:599px){
-    .columns{
-         grid-template-columns: 1fr;
-    }
-    .backgroundImg{
-
-        /* background-size: 200%;
-        height: 35vh; */
-
-    }
- 
-}
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
+    font-display: bold;
     text-decoration: underline;
-    text-align: center;
+
+}
+h2{
+    margin: 15px;
+}
+img{
+    width: 100%;
+    position: inherit;
 }
 body {
     font-family: 'Indie Flower';
@@ -60,6 +20,7 @@ body {
 div + p{
     text-align: center;
 }
+
 h1 + h2{
      text-align: center;
 }
@@ -75,41 +36,104 @@ iframe{
  display: block;
  margin: 0 auto;   
 }
-#top {
-    background-color: black;
-     color: purple;
-     margin: 0 auto;
-     -webkit-text-size-adjust: auto;
-     text-align: left;
-     
-}
-.columnsTop{
-    display: grid;
-    grid-template-columns:14fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2%;
-    padding: 0 auto;
-    border: 0 auto;
 
-  
-}
 footer{
     text-align: center;
 }
 #foot{
     background-color: black;
     color: white;
-    }
-
-h1{
-    text-align: center;
-    font-display: bold;
-    text-decoration: underline;
-
 }
-h2{
-    margin: 15px;
+#top {
+    background-color: black;
+    color: purple;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: left;
 }
-img{
+#title{
+    margin: 0.1em;
+    margin-left: 0.3em;
+}
+.backgroundImg {
+    background-image: url("https://www.thesprucecrafts.com/thmb/C0tpHZDxpvj0KyYCvhJ2QeItsdE=/2121x1414/filters:fill(auto,1)/colorfulyarn-5941a9623df78c537bca3f0d.jpg");
     width: 100%;
-    position: inherit;
+    height: 68vh;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: auto;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 30vh;
 }
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    margin: 12px;
+}
+.columnsTop{
+     display: grid;
+    grid-template-columns:14fr 1fr 1fr 1fr 2fr;
+    grid-gap: 2%;
+    padding: 0 auto;
+    border: 0 auto;
+}
+@media screen and (max-width:889px){
+    
+    .backgroundImg{
+        height: 50vh;
+        position: center;
+
+    }
+}
+@media screen and (max-width:745px){
+    .wrapper{
+         grid-template-columns: 1fr;
+    }
+    .backgroundImg{
+
+    }
+ iframe{
+    height: 40vh;
+ }
+}
+
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+    font-size: large;
+    text-align: -webkit-center;
+    margin: auto;
+}
+
+a:visited {
+    color: rgb(219, 128, 231);
+    background-color: transparent;
+    text-decoration: none;
+    font-size: large;
+    text-align: -webkit-center;
+}
+
+a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: large;
+    text-align: -webkit-center;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: large;
+    text-align: -webkit-center;
+}
+
+
+
+
