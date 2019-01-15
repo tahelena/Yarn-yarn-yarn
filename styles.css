@@ -93,9 +93,7 @@ footer{
     .wrapper{
          grid-template-columns: 1fr;
     }
-    .backgroundImg{
 
-    }
  iframe{
     height: 40vh;
  }
