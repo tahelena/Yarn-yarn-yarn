@@ -73,7 +73,7 @@ footer{
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 4em;
+    /* grid-gap: 4em; */
     margin: 12px;
 
 }
@@ -101,6 +101,16 @@ footer{
     height: 40vh;
  }
 }
+@media screen and (max-width:1000px){
+    .wrapper{
+         grid-template-columns: 1fr 1fr;
+    }
+
+ iframe{
+    height: 40vh;
+ }
+}
+
 
 a:link {
     color: white; 
