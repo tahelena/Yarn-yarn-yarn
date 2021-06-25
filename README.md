@@ -10,5 +10,3 @@ Contact us section with embedded Google Map
 Responsive image gallery with images resizing/reorganizing based on the width of the screen
 Brands section which is a responsive grid of images with text below each one
 Footer section
-
-Website to copy: https://barcelonacodeschool.com/blog-pics/2018/single-page-workshop_barcelona-code-school.jpg
